@@ -1,0 +1,36 @@
+#include <zephyr.h>
+#include <device.h>
+#include <drivers/sensor.h>
+#include <drivers/pwm.h>
+
+#define LASER_PWM_PIN 0  // Define laser control pin
+
+void control_laser(int intensity) {
+    const struct device *pwm_dev;
+    pwm_dev = device_get_binding(DT_ALIAS_PWM0_LABEL);
+
+    // Set PWM to control laser intensity
+    pwm_pin_set_usec(pwm_dev, LASER_PWM_PIN, 10000, intensity * 100, 0);
+}
+
+void read_sensor_data() {
+    const struct device *dev = device_get_binding("TEMP_SENSOR");
+    struct sensor_value temp;
+    
+    while (1) {
+        // Reading sensor data (example temperature sensor)
+        sensor_sample_fetch(dev);
+        sensor_channel_get(dev, SENSOR_CHAN_TEMP, &temp);
+        
+        printk("Current Temperature: %d.%06d\n", temp.val1, temp.val2);
+        k_msleep(1000);
+    }
+}
+
+void main(void) {
+    int laser_intensity = 50;  // Example intensity value
+    control_laser(laser_intensity);
+    
+    // Read sensor data in a loop
+    read_sensor_data();
+}
