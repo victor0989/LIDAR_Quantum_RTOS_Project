@@ -1,0 +1,116 @@
+﻿ARK | Compare Intel® Products
+09/25/2024 08:10:37 PM
+,Intel® Core™ i9 processor 14900K  (36M Cache- up to 6.00 GHz)
+
+Essentials
+Product Collection,Intel® Core™ i9 Processors (14th gen)
+Code Name,Products formerly Raptor Lake
+Vertical Segment,Desktop
+Processor Number,i9-14900K
+Lithography,Intel 7
+Recommended Customer Price,$589.00-$599.00
+
+CPU Specifications
+Total Cores,24
+# of Performance-cores,8
+# of Efficient-cores,16
+Total Threads,32
+Max Turbo Frequency,6 GHz
+Intel® Thermal Velocity Boost Frequency,6 GHz
+Intel® Turbo Boost Max Technology 3.0 Frequency ‡,5.8 GHz
+Performance-core Max Turbo Frequency,5.6 GHz
+Efficient-core Max Turbo Frequency,4.4 GHz
+Performance-core Base Frequency,3.2 GHz
+Efficient-core Base Frequency,2.4 GHz
+Cache,36 MB Intel® Smart Cache
+Total L2 Cache,32 MB
+Processor Base Power,125 W
+Maximum Turbo Power,253 W
+
+Supplemental Information
+Marketing Status,Launched
+Launch Date,Q4'23
+Embedded Options Available,No
+Use Conditions,PC/Client/Tablet |  Workstation
+
+Memory Specifications
+Max Memory Size (dependent on memory type),192 GB
+Memory Types,Up to DDR5 5600 MT/s Up to DDR4 3200 MT/s
+Max # of Memory Channels,2
+Max Memory Bandwidth,89.6 GB/s
+ECC Memory Supported   ‡,Yes
+
+GPU Specifications
+GPU Name‡,Intel® UHD Graphics 770
+Graphics Base Frequency,300 MHz
+Graphics Max Dynamic Frequency,1.65 GHz
+Graphics Output,eDP 1.4b |  DP 1.4a |  HDMI 2.1
+Execution Units,32
+Max Resolution (HDMI)‡,4096 x 2160 @ 60Hz
+Max Resolution (DP)‡,7680 x 4320 @ 60Hz
+Max Resolution (eDP - Integrated Flat Panel)‡,5120 x 3200 @ 120Hz
+DirectX* Support,12
+OpenGL* Support,4.5
+OpenCL* Support,3.0
+Multi-Format Codec Engines,2
+Intel® Quick Sync Video,Yes
+Intel® Clear Video HD Technology,Yes
+# of Displays Supported ‡,4
+Device ID,0xA780
+
+Expansion Options
+Direct Media Interface (DMI) Revision,4.0
+Max # of DMI Lanes,8
+Scalability,1S Only
+PCI Express Revision,5.0 and 4.0
+PCI Express Configurations ‡,Up to 1x16+4 |  2x8+4
+Max # of PCI Express Lanes,20
+
+Package Specifications
+Sockets Supported,FCLGA1700
+Max CPU Configuration,1
+Thermal Solution Specification,PCG 2020A
+TJUNCTION,100°C
+Package Size,45.0 mm x 37.5 mm
+Max Operating Temperature,100 °C
+
+Advanced Technologies
+Intel® Gaussian & Neural Accelerator,3.0
+Intel® Thread Director,Yes
+Intel® Deep Learning Boost (Intel® DL Boost) on CPU,Yes
+Intel® Speed Shift Technology,Yes
+Intel® Adaptive Boost Technology,Yes
+Intel® Thermal Velocity Boost,Yes
+Intel® Turbo Boost Max Technology 3.0 ‡,Yes
+Intel® Turbo Boost Technology ‡,2.0
+Intel® Hyper-Threading Technology ‡,Yes
+Intel® 64 ‡,Yes
+Instruction Set,64-bit
+Instruction Set Extensions,Intel® SSE4.1 |  Intel® SSE4.2 |  Intel® AVX2
+Idle States,Yes
+Enhanced Intel SpeedStep® Technology,Yes
+Thermal Monitoring Technologies,Yes
+Intel® Volume Management Device (VMD),Yes
+
+Security & Reliability
+Intel vPro® Eligibility ‡,Intel vPro® Enterprise |  Intel vPro® Essentials |  Intel vPro® Platform
+Intel® Threat Detection Technology (TDT),Yes
+Intel® Active Management Technology (AMT) ‡,Yes
+Intel® Standard Manageability (ISM) ‡,Yes
+Intel® Remote Platform Erase (RPE) ‡,Yes
+Intel® One-Click Recovery ‡,Yes
+Intel® Hardware Shield Eligibility ‡,Yes
+Intel® Control-Flow Enforcement Technology,Yes
+Intel® Total Memory Encryption - Multi Key,Yes
+Intel® AES New Instructions,Yes
+Secure Key,Yes
+Intel® OS Guard,Yes
+Intel® Trusted Execution Technology ‡,Yes
+Execute Disable Bit ‡,Yes
+Intel® Boot Guard,Yes
+Mode-based Execute Control (MBEC),Yes
+Intel® Stable IT Platform Program (SIPP),Yes
+Intel® Virtualization Technology with Redirect Protection (VT-rp) ‡,Yes
+Intel® Virtualization Technology (VT-x) ‡,Yes
+Intel® Virtualization Technology for Directed I/O (VT-d) ‡,Yes
+Intel® VT-x with Extended Page Tables (EPT) ‡,Yes
