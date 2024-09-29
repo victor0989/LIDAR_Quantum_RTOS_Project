@@ -28,17 +28,17 @@ This principle focuses on advanced algorithms for detecting obstacles and object
 
 # Subtopic: Object Detection and Tracking with LIDAR Sensor Fusion
 File Name: lidar_sensor_fusion_algorithms.md
-# Description: 
+# Description LIDAR-obstacles: 
 Algorithms and methods for combining LIDAR and other sensors to detect obstacles and track objects. The focus will be on how quantum material properties can be leveraged to improve detection accuracy, and enhance object-following capabilities in a commercial context.
 
 # Principle 3: High-Efficiency Materials or Intel i9 Processor
 Folder Name: i9_Processor_Context
 
-# Description: 
+# Description of high-performance computing LIDAR systems: 
 While not as crucial as the previous principles, this folder discusses the relevance of high-performance computing in LIDAR systems, specifically using a powerful Intel i9 processor. By integrating such processors, the aim is to boost LIDAR processing speeds and handle complex algorithms with efficiency.
 
 File Name: intel_i9_performance.pdf
-# Description: 
+# Description for the Intel Core i9 processor in the laser manufacturing materials: 
 A PDF document detailing the performance capabilities of the Intel Core i9 processor in the context of LIDAR and laser manufacturing processes.
 
 # Integration of intel into particle accelerators, LIDAR lasers and quantum superconductors
