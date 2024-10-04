@@ -1,0 +1,31 @@
+module lidar_memory
+#(
+    parameter ADDR_WIDTH = 8,  // Address width (number of addressable locations)
+    parameter DATA_WIDTH = 16  // Data width (bit size of each memory location)
+)
+(
+    input wire clk,                    // Clock signal for synchronization
+    input wire wr_en,                  // Write enable signal
+    input wire [ADDR_WIDTH-1:0] addr,  // Address for both read and write
+    input wire [DATA_WIDTH-1:0] w_data, // Data to write
+    output reg [DATA_WIDTH-1:0] r_data  // Data read from memory
+);
+
+    // Declare memory array (2^ADDR_WIDTH locations with DATA_WIDTH bits per location)
+    reg [DATA_WIDTH-1:0] memory_array [0:2**ADDR_WIDTH-1];
+
+    // Write operation (on positive edge of clock)
+    always @(posedge clk) begin
+        if (wr_en) begin
+            // Store the incoming data (w_data) at the specified address (addr)
+            memory_array[addr] <= w_data;
+        end
+    end
+
+    // Read operation (data available from the specified address)
+    always @(posedge clk) begin
+        // Output the data stored at the address (addr)
+        r_data <= memory_array[addr];
+    end
+
+endmodule
