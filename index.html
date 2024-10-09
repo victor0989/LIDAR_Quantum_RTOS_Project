@@ -63,6 +63,18 @@
             bottom: 0;
             width: 100%;
         }
+        .principle {
+            margin-bottom: 20px;
+            border: 1px solid #007bff; /* Borde azul para cada principio */
+            padding: 10px;
+            border-radius: 5px;
+            background: #f7f9fc; /* Fondo claro para los principios */
+        }
+        .subtopic {
+            margin: 10px 0;
+            padding-left: 10px;
+            border-left: 3px solid #00509e; /* Línea a la izquierda */
+        }
     </style>
 </head>
 <body>
@@ -73,45 +85,52 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#project-overview">Project Overview</a></li>
-            <li><a href="#principles">Core Principles</a></li>
+            <li><a href="#core-principles">Core Principles</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="project-overview">
-        <h2>Project Overview</h2>
-        <p>This project is structured around three core principles, focusing on RTOS sensor optimization for LIDAR systems and quantum-based obstacle detection algorithms. It serves as a foundational project for integrating quantum theory and RTOS technologies with LIDAR systems, aiming to optimize LIDAR sensors using RTOS with Zephyr, enhance object detection through quantum-enhanced algorithms, and explore the role of high-performance processors like Intel i9.</p>
-    </section>
-    <section id="principles">
+    <section id="core-principles">
         <h2>Core Principles</h2>
-        <h3>Principle 1: RTOS Sensors with Zephyr for LIDAR Optimization</h3>
-        <p><strong>Folder Name:</strong> RTOS_Sensors_LIDAR</p>
-        <p>This folder focuses on optimizing LIDAR systems using RTOS (Real-Time Operating Systems) with Zephyr in VSCode. It allows better management of laser systems for commercial applications, providing improved real-time data processing and control.</p>
-        <ul>
-            <li><strong>Subtopic 1:</strong> <em>Superconducting Quantum Circuits Theory and Application</em><br>
+        
+        <div class="principle">
+            <h3>Principle 1: RTOS Sensors with Zephyr for LIDAR Optimization</h3>
+            <p><strong>Folder Name:</strong> RTOS_Sensors_LIDAR</p>
+            <p>This folder focuses on optimizing LIDAR systems using RTOS (Real-Time Operating Systems) with Zephyr in VSCode. It allows better management of laser systems for commercial applications, providing improved real-time data processing and control.</p>
+            
+            <div class="subtopic">
+                <strong>Subtopic 1:</strong> Superconducting Quantum Circuits Theory and Application<br>
                 <strong>File Name:</strong> superconducting_quantum_circuits.md<br>
-                <strong>Description:</strong> This document covers the theory and practical applications of superconducting quantum circuits, essential for accelerating particles or photons in LIDAR lasers at a commercial level.</li>
-            <li><strong>Subtopic 2:</strong> <em>RTOS Sensors Integration</em><br>
+                <strong>Description:</strong> This document covers the theory and practical applications of superconducting quantum circuits, essential for accelerating particles or photons in LIDAR lasers at a commercial level.
+            </div>
+            <div class="subtopic">
+                <strong>Subtopic 2:</strong> RTOS Sensors Integration<br>
                 <strong>File Name:</strong> rtos_sensors.md<br>
-                <strong>Description:</strong> Details on integrating RTOS sensors within LIDAR systems to enhance real-time performance.</li>
-        </ul>
-        
-        <h3>Principle 2: Algorithms for Obstacle Detection Using Quantum Materials</h3>
-        <p><strong>Folder Name:</strong> Quantum_Obstacle_Detection</p>
-        <p>This principle focuses on advanced algorithms for detecting obstacles and object tracking using quantum materials and sensor fusion techniques.</p>
-        <ul>
-            <li><strong>Subtopic:</strong> <em>Object Detection and Tracking with LIDAR Sensor Fusion</em><br>
+                <strong>Description:</strong> Details on integrating RTOS sensors within LIDAR systems to enhance real-time performance.
+            </div>
+        </div>
+
+        <div class="principle">
+            <h3>Principle 2: Algorithms for Obstacle Detection Using Quantum Materials</h3>
+            <p><strong>Folder Name:</strong> Quantum_Obstacle_Detection</p>
+            <p>This principle focuses on advanced algorithms for detecting obstacles and object tracking using quantum materials and sensor fusion techniques.</p>
+            
+            <div class="subtopic">
+                <strong>Subtopic:</strong> Object Detection and Tracking with LIDAR Sensor Fusion<br>
                 <strong>File Name:</strong> lidar_sensor_fusion_algorithms.md<br>
-                <strong>Description:</strong> Algorithms and methods for combining LIDAR and other sensors to detect obstacles and track objects.</li>
-        </ul>
-        
-        <h3>Principle 3: High-Efficiency Materials or Intel i9 Processor</h3>
-        <p><strong>Folder Name:</strong> i9_Processor_Context</p>
-        <p>This section discusses the relevance of high-performance computing in LIDAR systems using a powerful Intel i9 processor.</p>
-        <ul>
-            <li><strong>File Name:</strong> intel_i9_performance.pdf<br>
-                <strong>Description:</strong> A PDF detailing the performance capabilities of the Intel Core i9 processor in LIDAR and laser manufacturing processes.</li>
-        </ul>
+                <strong>Description:</strong> Algorithms and methods for combining LIDAR and other sensors to detect obstacles and track objects.
+            </div>
+        </div>
+
+        <div class="principle">
+            <h3>Principle 3: High-Efficiency Materials or Intel i9 Processor</h3>
+            <p><strong>Folder Name:</strong> i9_Processor_Context</p>
+            <p>This section discusses the relevance of high-performance computing in LIDAR systems using a powerful Intel i9 processor.</p>
+            
+            <div class="subtopic">
+                <strong>File Name:</strong> intel_i9_performance.pdf<br>
+                <strong>Description:</strong> A PDF detailing the performance capabilities of the Intel Core i9 processor in LIDAR and laser manufacturing processes.
+            </div>
+        </div>
     </section>
     <section id="contact">
         <h2>Contact</h2>
@@ -122,4 +141,3 @@
     </footer>
 </body>
 </html>
-
